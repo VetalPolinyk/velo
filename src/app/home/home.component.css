@@ -1,0 +1,40 @@
+.imgSLide {
+  width: 97%;
+}
+
+.tabs ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.tabs ul li {
+  margin-right: 2px;
+  cursor: pointer;
+  display: inline-block;
+}
+.tabs ul li.active h3 {
+  color: #282737;
+  border-bottom: 2px solid #ca1f27;
+}
+
+.tabs ul li h3 {
+  margin: 0;
+  border-bottom: 2px solid transparent;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20.5px 25px;
+  letter-spacing: 1px;
+  color: #585768;
+  transition: all .5s ease;
+}
+h1, h2, .b-hits h3, h3, h4, h5, h6 {
+  color: #282737;
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+}
+h1, h2, .b-hits h3, h3 {
+  margin-top: 25px;
+  letter-spacing: 2px;
+}
+
