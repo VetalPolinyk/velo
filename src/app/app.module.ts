@@ -6,8 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { RoutingModule } from './routing/routing.module';
 import { HomeComponent } from './home/home.component';
-import {CarouselModule} from "angular2-carousel";
-
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -20,8 +19,7 @@ import {CarouselModule} from "angular2-carousel";
   imports: [
     BrowserModule,
     RoutingModule,
-    CarouselModule
-
+    NgbModule.forRoot()
     
   ],
   providers: [],
